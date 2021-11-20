@@ -92,6 +92,7 @@ function inicializarEspacos(){
 
 		await sleep(50)
 		alert("O ganhador foi: '"+ vencedor+"'");
+		window.location.reload();
 	}
 
 	else if(  (a1 != "" && a2 != "" && a3 != "" && b1 != "" && b2 != "" && b3 != "" && c1 != "" && c2 !="" && c3 != "") && vencedor == ""){
@@ -105,6 +106,7 @@ function inicializarEspacos(){
 		
 		await sleep(50)
 		alert("Velha!!!");
+		window.location.reload();
 	}
 
 		
