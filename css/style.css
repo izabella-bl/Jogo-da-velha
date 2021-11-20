@@ -1,0 +1,42 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.espaco{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    float:left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tabuleiro{
+    width: 462px;
+    height: 520px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.mostrar{
+    margin: auto;
+    margin-top: 40px;
+    width: 470px;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.conteudo{
+    display: flex;
+    justify-content:space-between;
+}
+
+#velha1, #velha2{
+    margin: auto;
+    margin-top: 150px;
+ 
+    
+}
